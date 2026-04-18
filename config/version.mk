@@ -15,3 +15,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.crdroid.build.version=$(CR_VERSION) \
     ro.crdroid.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.crdroid.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
+
+# flags
+PERF_ANIM_OVERRIDE ?= true
